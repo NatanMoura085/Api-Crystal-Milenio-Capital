@@ -1,0 +1,27 @@
+name: server
+version: 0.1.0
+
+authors:
+  - Natan Moura
+
+targets:
+  server:
+    main: src/server.cr
+
+crystal: 0.34.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  spec-kemal:
+    github: kemalcr/spec-kemal
+  micrate:
+    github: amberframework/micrate
+  pg:
+    github: natan/crystal-pg
+  crecto:
+    github: Crecto/crecto
+  micrate:
+    github: amberframework/micrate
